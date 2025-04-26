@@ -1,2 +1,8 @@
 # twi-tool
-Topographic Wetness Index interactive tool
+## Topographic Wetness Index Tool  
+  
+This Jupyter Notebook was developed to be used in the early stages of land use planning to quickly identify potentially flood-prone areas through terrain analysis. The Topograhic Wetness Index (TWI) at a point on a landscape is calculated from the contributing flow area, flow direction, and local slope and can correlate with overland flow and water accumulation. It does not account for flood timing or depths and should not be used for engineering design or regulatory floodplain mapping as a complete replacement for more robust hydrologic models. It is intended to be descriptive and interactive for users without advanced programming experience. The only required inputs are a Digital Elevation Model, which the tool can download for locations in the United States by querying The National Map application developed by the United States Geological Survey.  
+
+Run each cell of the Jupyter Notebook one at a time when open in ArcGIS Pro. Steps can be repeated, but this may require to rerun prerequisite cells. Optional steps are noted as such and can be skipped. Markdown cells with explanatory text are not required to be run. This tool can be run using the default Python package manager within ArcGIS Pro, and it requires a license for the Spatial Analyst extension.  
+
+This tool was developed by Kevin Bone as part of his master's project in the GIS Technology program at the University of Arizona and is licensed under the MIT License. It was completed on May 7, 2025 with ArcGIS Pro version 3.4.3, Conda version 24.7.1, and Python version 3.11.10.final.0.
